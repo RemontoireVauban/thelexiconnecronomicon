@@ -1,0 +1,53 @@
+.hero {
+    font-family: 'Pathway Gothic One', sans-serif;
+	color: #fff;
+    padding-top: 20vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+	width: 75vh;
+	min-height: 100vh;
+	margin: 0 auto 0 auto; }
+
+
+.bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.bg-video-content {
+		height: 100%;
+	    width: 100%;
+		object-fit: cover;
+		overflow: hidden;
+    }
+    
+.overlay span{
+        position: relative;
+        opacity: 0;
+        top: 1em;
+        animation: animateOverlay 1s ease-in-
+    out forwards;
+    }
+.overlay span:nth-child(4n) {
+     animation-delay: 0s; 
+    }
+.overlay span:nth-child(4n+1) {
+     animation-delay: 1s; 
+    }
+.overlay span:nth-child(4n+3) {
+     animation-delay: 2s; 
+    }
+.overlay span:nth-child(4n+2) {
+     animation-delay: 3s; 
+    }
+    
+@keyframes animateOverlay {
+  to {
+opacity: 1;
+top: 0;
+} }
