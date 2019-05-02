@@ -1,20 +1,34 @@
 /* html { font-size: 1vw; } */
 
-.hero {
+
+.header-hero-text{
     color: #fff;
-    text-align: center;
- }
+    font-family: 'Gilda Display', serif;
+    text-transform: uppercase;
+    position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
 
  .hero-text{
-     font-family: 'Gilda Display', serif;
-     text-transform: uppercase;
      letter-spacing: 0.05em;
-     font-size: 3.25em;
-     padding-top: 10%;
-     padding-left: 5%;
-     padding-right: 5%;
-     padding-bottom: 5.5%;
+     font-size: 2.3em;
 }
+
+
+.hero-quote {
+    opacity: 0;
+    font-size: 1.25em;
+    letter-spacing: 0.25em;
+    animation: fade 15s;
+    -moz-animation: fade 15s; /* Firefox */
+    -webkit-animation: fade 15s; /* Safari and Chrome */
+    -o-animation: fade 15s; /* Opera */
+ }
+
+
 /* L */
 .hero-text span:nth-child(1) {
     opacity: 0;
@@ -28,80 +42,194 @@
 /* E */
 .hero-text span:nth-child(2) {
     opacity: 0;
-    animation: fadein 6s;
-    -moz-animation: fadein 6s;
-    -webkit-animation: fadein 6s;
-    -o-animation: fadein 6s; 
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s; 
     animation-delay: 15s;
     animation-fill-mode: forwards;
 }
 /* X */
 .hero-text span:nth-child(3) {
+
     opacity: 0;
-    animation: fadein 7s;
-    -moz-animation: fadein 7s;
-    -webkit-animation: fadein 7s;
-    -o-animation: fadein 7s; 
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
     animation-delay: 15s;
     animation-fill-mode: forwards;
 }
 /* I */
 .hero-text span:nth-child(4) {
     opacity: 0;
-    animation: fadein 8s;
-    -moz-animation: fadein 8s;
-    -webkit-animation: fadein 8s;
-    -o-animation: fadein 8s; 
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
     animation-delay: 15s;
     animation-fill-mode: forwards;
+
 }
 /* C */
 .hero-text span:nth-child(5) {
     opacity: 0;
-    animation: fadein 9s;
-    -moz-animation: fadein 9s;
-    -webkit-animation: fadein 9s;
-    -o-animation: fadein 9s; 
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
     animation-delay: 15s;
     animation-fill-mode: forwards;
 }
 /* O */
 .hero-text span:nth-child(6) {
     opacity: 0;
-    animation: fadein 9s;
-    -moz-animation: fadein 9s;
-    -webkit-animation: fadein 9s;
-    -o-animation: fadein 9s; 
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
     animation-delay: 15s;
     animation-fill-mode: forwards;
 }
 /* N */
 .hero-text span:nth-child(7) {
     opacity: 0;
-    animation: fadein 10s;
-    -moz-animation: fadein 10s;
-    -webkit-animation: fadein 10s;
-    -o-animation: fadein 10s; 
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
     animation-delay: 15s;
     animation-fill-mode: forwards;
 }
 
- .hero-quote {
+/* N */
+.hero-text span:nth-child(8) {
     opacity: 0;
-    font-family: 'Gilda Display', serif;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    letter-spacing: 0.25em;
-    position: absolute;
-	top: 50%;
-	left: 37.5%;
-    transform: translate(-30%, -50%);
-    animation: fade 15s;
-    -moz-animation: fade 15s; /* Firefox */
-    -webkit-animation: fade 15s; /* Safari and Chrome */
-    -o-animation: fade 15s; /* Opera */
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */ 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+/* E */
+.hero-text span:nth-child(9) {
+    opacity: 0;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+/* C */
+.hero-text span:nth-child(10) {
 
- }
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+/* R */
+.hero-text span:nth-child(11) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+
+}
+/* O */
+.hero-text span:nth-child(12) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+/* N */
+.hero-text span:nth-child(13) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* O */
+.hero-text span:nth-child(14) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* M */
+.hero-text span:nth-child(15) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* I */
+.hero-text span:nth-child(16) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* C */
+.hero-text span:nth-child(17) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* O */
+.hero-text span:nth-child(18) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+/* N */
+.hero-text span:nth-child(19) {
+    opacity: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
 
  @keyframes fade {
     0%   { opacity:0; }
