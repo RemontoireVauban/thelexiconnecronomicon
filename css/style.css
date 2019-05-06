@@ -3,7 +3,7 @@
     padding: 0;
   } 
 .container-fluid {
-    display:grid;
+    display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
     padding-left: 0 !important; 
@@ -26,12 +26,17 @@ footer {
 }
 
 section {
+    background-color: black;
     width: 100vw;
     height: 70vh;
     
     }
+
+.author {
+    background-image: url(../img/tree.jpg);
+}
     
-    nav.main-nav {
+nav.main-nav {
         background:black;
         height:60px;
         z-index:170;
@@ -44,20 +49,28 @@ section {
         text-align: center;
     }
      
-    nav.main-nav a {
+nav.main-nav a {
         font-family:'Gilda Display', serif;
-        font-size:20px;
+        font-size: 15px;
         text-decoration:none;
+        text-transform: uppercase;
         display:inline-block;
         padding:15px 19px;
         color:white;
     }
+
+nav.main-nav a:hover {
+    font-size: 18px;
+}
      
-    .navigation {
+.navigation {
         display: inline;
         margin:0 auto;
     }
-    
+
+.navicon {
+    background-color: white;
+}
 
 .bg-video {
 
@@ -164,16 +177,24 @@ button {
     top: 0;
   }
 
-.carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
-}
-
-#text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
+  .feature-box {
+    display: inline-block;
+    width: 20%;
+    height: 70%;
+	color: #777;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    padding: 2.5rem;
+    margin-top: 5%;
+    margin-left: 3.5%;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: transition .3s;
+  }
+  .feature-box:hover{
+    transform: translateY(-1.5rem) scale(1.03);
 }
 
 
