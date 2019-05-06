@@ -1,9 +1,31 @@
- /* html { 
-
-  }  */
+ html { 
+    margin: 0;
+    padding: 0;
+  } 
+.container-fluid {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    padding-left: 0 !important; 
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    overflow: hidden;
+}
 header {
+     text-align: center;
+     width: 100vw;
+     height: 100vh;
+}
 
-    text-align: center;
+footer {
+    width: 100vw;
+    height: 30vh;
+}
+
+section {
+    width: 100vw;
+    height: 70vh;
 }
 
 .bg-video {
@@ -17,7 +39,7 @@ header {
 	overflow: hidden;
 }
 
-.bg-video-content {
+.bg-video-vid {
 		height: 100%;
 	    width: 100%;
 		object-fit: cover;
@@ -56,7 +78,7 @@ header {
     text-align: center;
  }
 .hero-nav {
-    padding-top: 22%;
+    padding-top: 25%;
     animation: fadein 3s;
     animation-delay: 12s;
 	animation-fill-mode: backwards;
