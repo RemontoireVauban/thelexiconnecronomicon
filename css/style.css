@@ -11,6 +11,7 @@
     padding-right: 0 !important;
     margin-right: 0 !important;
     overflow: hidden;
+    
 }
 header {
      text-align: center;
@@ -19,6 +20,7 @@ header {
 }
 
 footer {
+    background-color: black;
     width: 100vw;
     height: 30vh;
 }
@@ -26,10 +28,39 @@ footer {
 section {
     width: 100vw;
     height: 70vh;
-}
+    
+    }
+    
+    nav.main-nav {
+        background:black;
+        height:60px;
+        z-index:170;
+        margin:0 auto;
+        width:100%;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        text-align: center;
+    }
+     
+    nav.main-nav a {
+        font-family:'Gilda Display', serif;
+        font-size:20px;
+        text-decoration:none;
+        display:inline-block;
+        padding:15px 19px;
+        color:white;
+    }
+     
+    .navigation {
+        display: inline;
+        margin:0 auto;
+    }
+    
 
 .bg-video {
-    
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -132,6 +163,19 @@ button {
   .button-nav:hover:before {
     top: 0;
   }
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
 
 /* T */
 .hero-text span:nth-child(1) {
