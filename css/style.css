@@ -1,4 +1,7 @@
- /* Sticky Navigation */
+
+      
+
+/* Sticky Navigation */
 
 nav.main-nav {
     background:black;
@@ -21,10 +24,14 @@ nav.main-nav a {
     display:inline-block;
     padding:15px 19px;
     color:white;
+    -webkit-transition: font-size .5s ease-out;
+    -moz-transition: font-size .5s ease-out;
+    -o-transition: font-size .5s ease-out;
+    transition: font-size .5s ease-out;
 }
 
 nav.main-nav a:hover {
-font-size: 18px;
+font-size: 17px;
 }
 
 /* Background video */
@@ -79,64 +86,24 @@ header {
    -webkit-animation: fade 11s; /* Safari and Chrome */
    -o-animation: fade 11s; /* Opera */
 }
-
-/* button {
-    font-family: 'Gilda Display', serif;
-    text-transform: uppercase;
-    position: relative;
-    height: 45px;
-    width: 150px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: white;
-    border: 1px white solid;
-    border-radius: 4px;
-    text-transform: uppercase;
-    outline: 0;
-    background: none;
-    z-index: 1;
-    cursor: pointer;
-    transition:         0.08s ease-in;
-    -o-transition:      0.08s ease-in;
-    -ms-transition:     0.08s ease-in;
-    -moz-transition:    0.08s ease-in;
-    -webkit-transition: 0.08s ease-in;
-  }
-
-  .button-nav:hover {
-    color: teal ;
-  }
-  
-  .button-nav:before {
-    content: "";
-    position: absolute;
-    background: white;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 100%;
-    z-index: -1;
-    transition:         0.08s ease-in;
-    -o-transition:      0.08s ease-in;
-    -ms-transition:     0.08s ease-in;
-    -moz-transition:    0.08s ease-in;
-    -webkit-transition: 0.08s ease-in;
-  }
-  
-  .button-nav:hover:before {
-    top: 0;
-  } */
  
 section {
         clear: both;
         padding: 0px;
         margin: 0px;
     }
+    
 /* Author */
+.author {
+    background-image: linear-gradient(to bottom, rgba(26, 76, 80, 0.623), rgba(0, 0, 0, 0.918)),  url(../img/alexandra-rose-439340-unsplash.jpg);
+    background-size: cover;
+    overflow: auto;
+}
+
 .feature-box {
         height: 70vh;
         display: inline-block;
-        color: #777;
+        color: white;
         background-color: rgba(255, 255, 255, 0.3);
         font-size: 12px;
         padding: 2.5rem;
@@ -146,11 +113,20 @@ section {
         align-items: center;
         border-radius: 3px;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-        transition: transition .3s;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+        -webkit-transition: transform .5s ease-out;
+        -moz-transition: transform .5s ease-out;
+        -o-transition: transform .5s ease-out;
+        transition: transform .5s ease-out;
       }
       
 .feature-box:hover{
         transform: translateY(-1.5rem) scale(1.03);
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0.9;
     }
 
 
