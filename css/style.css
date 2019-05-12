@@ -50,13 +50,23 @@ font-size: 17px;
 		height: 100%;
 	    width: 100%;
 		object-fit: cover;
-		overflow: hidden;
+		overflow-x: hidden;
     }
+
+.logo-bar{
+    background:black;
+    height:80px;
+    z-index:170;
+    margin:0 auto;
+    width:100%;
+    position:absolute;
+    top: 90%;
+}
 
 header {
     text-align: center;
     width: 95vw;
-    height: 100vh;
+    height: 96.6vh;
 }
 
 .header-hero-text {
@@ -95,7 +105,7 @@ section {
     
 /* Author */
 .author {
-    background-image: linear-gradient(to bottom, rgba(26, 76, 80, 0.623), rgba(0, 0, 0, 0.918)),  url(../img/alexandra-rose-439340-unsplash.jpg);
+    background-image: radial-gradient(circle, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918)),  url(../img/alexandra-rose-439340-unsplash.jpg);
     background-size: cover;
     overflow: auto;
 }
@@ -105,29 +115,89 @@ section {
         display: inline-block;
         color: white;
         background-color: rgba(255, 255, 255, 0.3);
-        font-size: 12px;
+        font-size: 11.5px;
         padding: 2.5rem;
         margin-top: 10%;
         margin-bottom: 10%;
         margin-left: 3.5%;
+        margin-right: 3.5%;
         align-items: center;
         border-radius: 3px;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-        -webkit-transition: background-color 1s ease-out;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1s ease-out;
-        transition: background-color 1s ease-out;
-        -webkit-transition: transform .5s ease-out;
-        -moz-transition: transform .5s ease-out;
-        -o-transition: transform .5s ease-out;
-        transition: transform .5s ease-out;
+        -webkit-transition: transform 1s ease-out;
+        -moz-transition: transform 1s ease-out;
+        -o-transition: transform 1s ease-out;
+        transition: transform 1s ease-out;
       }
       
 .feature-box:hover{
         transform: translateY(-1.5rem) scale(1.03);
         background-color: rgba(0, 0, 0, 0.7);
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
         opacity: 0.9;
     }
+/* Themes */
+
+.themes {
+    background-image: radial-gradient(circle, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918)), url(../img/qijin-xu-1327858-unsplash.jpg);
+    background-size: contain;
+    overflow: auto;
+    height: 100vh;
+}
+
+#slider,  #slider .slide{
+    width: 70vw;
+    height: 70vh;
+  }
+  #slider {
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: white;
+
+  }
+  #slider .slides {
+    position: relative;
+    width: 9000px; 
+    top: 0;
+    right: 0;
+    animation: slide-animation 30s infinite;
+  }
+  #slider .slide {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+  
+  /* [ANIMATION] */
+  @keyframes slide-animation {
+    0% { 
+      opacity: 0;
+      right: 0;
+    }
+    11% {
+      opacity: 1;
+      right: 0; 
+    }
+    22% { right: 100%; }
+    33% { right: 100%; }
+    44% { right: 200%; }
+    55% { right: 200%; }
+    66% { right: 300%; }
+    77% { right: 300%; }
+    88% {
+      opacity: 1;
+      right: 400%; 
+    }
+    100% {
+      opacity: 0;
+      right: 400%;
+    }
+  }
 
 
 /*  COLUMN SETUP  */
