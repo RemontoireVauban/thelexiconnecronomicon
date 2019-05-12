@@ -1,4 +1,7 @@
-
+h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
       
 
 /* Sticky Navigation */
@@ -105,7 +108,7 @@ section {
     
 /* Author */
 .author {
-    background-image: radial-gradient(circle, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918)),  url(../img/alexandra-rose-439340-unsplash.jpg);
+    background-image: radial-gradient(circle at center, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918), rgba(0,0,0,1)),  url(../img/alexandra-rose-439340-unsplash.jpg);
     background-size: cover;
     overflow: auto;
 }
@@ -142,11 +145,26 @@ section {
 /* Themes */
 
 .themes {
-    background-image: radial-gradient(circle, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918)), url(../img/qijin-xu-1327858-unsplash.jpg);
+    background-image: radial-gradient(circle at center, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918), rgba(0,0,0,1)), url(../img/qijin-xu-1327858-unsplash.jpg);
     background-size: contain;
     overflow: auto;
     height: 100vh;
 }
+
+/* .wrapper {
+    top: 5%;
+    left: 5%;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    border-radius: 3px;
+    padding: 3rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+} */
 
 #slider,  #slider .slide{
     width: 70vw;
