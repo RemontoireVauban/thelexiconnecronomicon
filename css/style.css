@@ -164,10 +164,12 @@ section {
 
 /* Stories */
 
-/* .stories {
-    
-
-} */
+.stories {
+    background: url(../img/jonas-allert-735570-unsplash.jpg);
+    background-size: contain;
+    overflow: auto;
+    height: 100vh;
+}
 
 
 #slider,  #slider .slide{
