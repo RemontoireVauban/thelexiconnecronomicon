@@ -8,6 +8,8 @@ h3 {
 }
 
 
+
+
       
 
 /* Sticky Navigation */
@@ -171,7 +173,24 @@ section {
     height: 100vh;
 }
 
+/* Download */
 
+/* .downloads {
+
+} */
+
+.form-blurb {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Gilda Display', serif;
+    
+}
+
+.eldersign {
+    opacity: 0.5;
+    padding-left: 37%;
+}
 #slider,  #slider .slide{
     width: 70vw;
     height: 70vh;
