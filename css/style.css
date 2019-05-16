@@ -165,9 +165,9 @@ section {
 /* Stories */
 
 .stories {
-    background: url(../img/jonas-allert-735570-unsplash.jpg);
-    background-size: contain;
-    overflow: auto;
+    /* background: url(../img/masaaki-komori-627104-unsplash.jpg);
+    background-size: cover; */
+    /* overflow: auto; */
     height: 100vh;
 }
 
