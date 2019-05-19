@@ -5,6 +5,26 @@ body {
 h3 {
     text-transform: uppercase;
     font-size: 14px;
+    -webkit-transition: font-size .5s ease-out;
+    -moz-transition: font-size .5s ease-out;
+    -o-transition: font-size .5s ease-out;
+    transition: font-size .5s ease-out;
+}
+
+h3:hover {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.ptheme{
+    -webkit-transition: font-size .5s ease-out;
+    -moz-transition: font-size .5s ease-out;
+    -o-transition: font-size .5s ease-out;
+    transition: font-size .5s ease-out;
+}
+
+.ptheme:hover {
+    font-size: 12px;
 }
 
 
@@ -160,24 +180,20 @@ section {
     color: white;
     font-size: 11.5px;
     margin-bottom: 10%;
-    padding-right: 10%;
-    padding-left: 50%;
+    padding-right: 2%;
+    /* padding-left: 50%; */
 }
 
 /* Stories */
 
 .stories {
-    /* background: url(../img/masaaki-komori-627104-unsplash.jpg);
-    background-size: cover; */
-    /* overflow: auto; */
+
     height: 100vh;
+    text-align: center;
 }
 
 /* Download */
 
-/* .downloads {
-
-} */
 
 .form-blurb {
     text-align: center;
@@ -187,35 +203,17 @@ section {
     
 }
 
-.eldersign {
-    opacity: 0.5;
-    padding-left: 37%;
-}
-#slider,  #slider .slide{
-    width: 70vw;
-    height: 70vh;
-  }
-  #slider {
-    overflow: hidden;
-    margin: 0 auto;
-    font-size: 1.2em;
-    color: white;
+/* Product */
 
-  }
-  #slider .slides {
-    position: relative;
-    width: 9000px; 
-    top: 0;
-    right: 0;
-    animation: slide-animation 30s infinite;
-  }
-  #slider .slide {
-    position: relative;
-    float: left;
-    box-sizing: border-box;
-    padding: 10px 20px;
-  }
-  
+.productimage:hover {
+    opacity: 0.7;
+    transform: translateY(-1.5rem) scale(1.03);
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+    }
+
   /* [ANIMATION] */
   @keyframes slide-animation {
     0% { 
@@ -277,30 +275,6 @@ section {
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
 
-/*  GRID OF SIX  */
-.span_6_of_6 {
-	width: 100%;
-}
-
-.span_5_of_6 {
-  	width: 83.06%;
-}
-
-.span_4_of_6 {
-  	width: 66.13%;
-}
-
-.span_3_of_6 {
-  	width: 49.2%;
-}
-
-.span_2_of_6 {
-  	width: 32.26%;
-}
-
-.span_1_of_6 {
-  	width: 15.33%;
-}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
@@ -344,10 +318,10 @@ section {
 /* L */
 .hero-text span:nth-child(4) {
     opacity: 0;
-    animation: fadein 5s;
-    -moz-animation: fadein 5s;
-    -webkit-animation: fadein 5s;
-    -o-animation: fadein 5s; 
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s; 
     animation-delay: 10s;
     animation-fill-mode: forwards;
 
@@ -355,10 +329,10 @@ section {
 /* E */
 .hero-text span:nth-child(5) {
     opacity: 0;
-    animation: fadein 5s;
-    -moz-animation: fadein 5s;
-    -webkit-animation: fadein 5s;
-    -o-animation: fadein 5s; 
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s; 
     animation-delay: 10s;
     animation-fill-mode: forwards;
 }
