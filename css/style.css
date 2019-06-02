@@ -196,22 +196,6 @@ section {
     text-align: center;
 }
 
-.read-button {
-
-        background-color: white;
-        border: none;
-        padding: 20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        height: 10vh;
-        width: 5vw;
-}
-
-.read-button:hover {
-    transform: translateY(-0.5rem);
-}
-
 .story-text {
     text-align: left;
 }
@@ -231,12 +215,9 @@ section {
 
 
 footer {
-
-    padding-top: 89vh;
-    z-index:170;
-    margin:0 auto;
+    position: fixed;
+    margin-top: 89vh;
     width:100%;
-    position:fixed;
     top:0;
     left:0;
     right:0;
@@ -289,11 +270,11 @@ footer {
     .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
     .hero-text{letter-spacing: 0.05em; font-size: 2vw; padding-top: 50vh; word-break: none;}
     .hero-quote{ font-size:2vw; padding-bottom: 50vh;}
-    .bg-video { position: fixed;}
-    .author { background: none;}
-    .themes { background: none;}
-    .stories{ background: none;}
-    .download{ background: none;}
+    .bg-video { position: fixed; position: scroll;}
+    .author { background: none; position: scroll;}
+    .themes { background: none; position: scroll;}
+    .stories{ background: none; position: scroll;}
+    .download{ background: none; position: scroll;}
 
 }
 
