@@ -214,6 +214,12 @@ section {
     padding-bottom: 15%;
 }
 
+.lexcontent {
+    display: inline-block;
+    align-items: left;
+
+}
+
 .abutton {
     text-decoration: none;
     border: none;
@@ -345,6 +351,13 @@ section {
     border: none;
     color: #fff;
     background: black;
+    float: left;
+}
+
+.stitle {
+    float: right;
+    padding-top: 3px;
+    font-size: 13.5px;
 }
 
 .tbutton {
