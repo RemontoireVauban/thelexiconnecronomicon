@@ -175,21 +175,232 @@ section {
 /* Themes */
 
 .themes {
-    background-image: radial-gradient(circle at center, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918), rgba(0,0,0,1)), url(../img/qijin-xu-1327858-unsplash.jpg);
     background-size: contain;
     overflow: auto;
     height: 95vh;
     color: white;
     font-size: 11.5px;
-    margin-bottom: 10%;
     padding-right: 2%;
     /* padding-left: 50%; */
 }
 
+/* Mythos */
+
+.mythos {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-size: contain;
+    overflow: auto;
+
+}
+
+/* Lexicon */
+
+.lexicon {
+    color: #fff;
+    text-align: left;
+    height: 70vh;
+    margin-bottom: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.lexiconarticle {
+    padding-bottom: 15%;
+}
+
+.abutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.bbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.cbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.dbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.ebutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.fbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.gbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.hbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.ibutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.jbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.kbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.lbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.mbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.nbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.obutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.pbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.qbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.rbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.sbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.tbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.ubutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.vbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.wbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.xbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.ybutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+.zbutton {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: black;
+}
+
+
 /* Stories */
 
 .stories {
-    background-image: radial-gradient(circle at center, rgba(11, 47, 49, 0.548), rgba(0, 0, 0, 0.918), rgba(0,0,0,1)),  url(../img/ned-daniels-800536-unsplash.jpg);
+    padding: 5%;
     background-size: cover;
     overflow: auto;
     height: 70vh;
@@ -199,6 +410,8 @@ section {
 .story-text {
     text-align: left;
 }
+
+/* Watch */
 
 .video {
     text-align: center;
@@ -239,7 +452,90 @@ footer {
     background: black;
 }
 
+.facebook:link {
+    text-decoration: none;
+    color: #fff
 
+}
+
+.facebook:visited {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.facebook:hover {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.instagram:link {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.instagram:visited {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.instagram:hover {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.twitter:link {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.twitter:visited {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.twitter:hover {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.youtube:link {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.youtube:visited {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.youtube:hover {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.vimeo:link {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.vimeo:visited {
+    text-decoration: none;
+    color: #fff
+
+}
+
+.vimeo:hover {
+    text-decoration: none;
+    color: darkslategrey;
+}
 
 
 /*  COLUMN SETUP  */
@@ -282,6 +578,41 @@ footer {
     .stories{ background: none; position: scroll;}
     .download{ background: none; position: scroll;}
 
+}
+
+/*  GRID OF SEVEN  */
+.span_7_of_7 {
+	width: 100%;
+}
+
+.span_6_of_7 {
+  	width: 85.48%;
+}
+
+.span_5_of_7 {
+  	width: 70.97%;
+}
+
+.span_4_of_7 {
+  	width: 56.45%;
+}
+
+.span_3_of_7 {
+  	width: 41.94%;
+}
+
+.span_2_of_7 {
+  	width: 27.42%;
+}
+
+.span_1_of_7 {
+  	width: 12.91%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_7, .span_2_of_7, .span_3_of_7, .span_4_of_7, .span_5_of_7, .span_6_of_7, .span_7_of_7 { width: 100%; }
 }
 
 
