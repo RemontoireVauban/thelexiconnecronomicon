@@ -184,232 +184,6 @@ section {
     /* padding-left: 50%; */
 }
 
-/* Mythos */
-
-.mythos {
-    color: #fff;
-    text-align: center;
-    align-items: center;
-    height: 90vh;
-    margin-bottom: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
-    background-size: contain;
-    overflow: auto;
-
-}
-
-/* Lexicon */
-
-.lexicon {
-    color: #fff;
-    text-align: left;
-    height: 70vh;
-    margin-bottom: 5%;
-    padding-right: 20%;
-    padding-left: 20%;
-}
-
-.lexiconarticle {
-    padding-bottom: 15%;
-}
-
-.lexcontent {
-    display: inline-block;
-    align-items: left;
-
-}
-
-.abutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.bbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.cbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.dbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.ebutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.fbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.gbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.hbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.ibutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.jbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.kbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.lbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.mbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.nbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.obutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.pbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.qbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.rbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.sbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-    float: left;
-}
-
-.stitle {
-    float: right;
-    padding-top: 3px;
-    font-size: 13.5px;
-}
-
-.tbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.ubutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.vbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.wbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.xbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.ybutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-.zbutton {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: black;
-}
-
-
 /* Stories */
 
 .stories {
@@ -467,87 +241,96 @@ footer {
 
 .facebook:link {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;
 
 }
 
 .facebook:visited {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;
 
 }
 
 .facebook:hover {
     text-decoration: none;
-    color: darkslategrey;
+    opacity: 1;
 }
 
 .instagram:link {
     text-decoration: none;
-    color: #fff
-
+    color: #fff;
+    opacity: 0.5;
 }
 
 .instagram:visited {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;
 
 }
 
 .instagram:hover {
     text-decoration: none;
-    color: darkslategrey;
+    opacity: 1;
 }
 
 .twitter:link {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;;
 
 }
 
 .twitter:visited {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;;
 
 }
 
 .twitter:hover {
     text-decoration: none;
-    color: darkslategrey;
+    opacity: 1;
 }
 
 .youtube:link {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;;
 
 }
 
 .youtube:visited {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;
 
 }
 
 .youtube:hover {
     text-decoration: none;
-    color: darkslategrey;
+    opacity: 1;
 }
 
 .vimeo:link {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;;
 
 }
 
 .vimeo:visited {
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    opacity: 0.5;
 
 }
 
 .vimeo:hover {
     text-decoration: none;
-    color: darkslategrey;
+    opacity: 1;
 }
 
 
