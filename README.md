@@ -17,7 +17,11 @@ In particular, as part of this section we recommend that you provide a list of U
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 Features Left to Implement
 
-    Another feature idea
+    An interactive dictionary of terminology and characters 
+
+    Animated cards showcasing Mythos entities
+
+    Expanding psuedo-pdfs
 
 Technologies Used
 
