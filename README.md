@@ -47,4 +47,6 @@ Media
 Acknowledgements
 
     Udemy - Jonas Schmedtmann
+    Codepen - Sticky Slider Navigation (Responsive)
+    A Pen By Ettrics 
     
