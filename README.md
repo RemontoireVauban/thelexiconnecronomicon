@@ -5,15 +5,13 @@ A simple single page site with responsive design, providing an introductory text
 
 UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-    As a user type, I want to perform an action, so that I can achieve a goal.
+    A single page website with ease of navigation, stickied to header and footer of page 
 
+    Embedded audio and video 
 
-    Feature 1 - allows users X to achieve Y, by having them fill out Z
-    ...
+    Interactive element in the shape of a submission form
 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -23,19 +21,13 @@ Features Left to Implement
 
 Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-    JQuery
-        The project uses JQuery to simplify DOM manipulation.
+    Bootstrap
 
 Testing
 
 
-    Contact form:
-        Go to the "Contact Us" page
-        Try to submit the empty form and verify that an error message about the required fields appears
-        Try to submit the form with an invalid email address and verify that a relevant error message appears
-        Try to submit the form with all inputs valid and verify that a success message appears.
+    Responsive Design 
+    Mobile usuability
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -46,7 +38,7 @@ Content
 
 Media
 
-   Unsplash and Soundcloud
+   Unsplash, Youtube and Soundcloud
 
 Acknowledgements
 
