@@ -38,7 +38,7 @@ In addition, you should mention in this section how your project looks and works
 Credits
 Content
 
-    The text for section Y was copied from the Wikipedia article Z
+   https://en.wikipedia.org/wiki/H._P._Lovecraft
 
 Media
 
